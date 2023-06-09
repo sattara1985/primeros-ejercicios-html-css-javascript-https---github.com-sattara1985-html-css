@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .chico {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(50, 161, 183);
+    margin-bottom: 15px;
+  }
+
+  .grande {
+    width: 100%;
+    height: 200px;
+    background-color:rgb(50, 161, 183);
+    margin-bottom: 9px;
+  }
+  .container {
+    clear: ;
+  }
+  .mediano{
+    width: 50%;
+    height: 100px;
+    background-color:rgb(50, 161, 183);
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: right;
+  }
+  .mediano {
+    width: 50%;
+    height: 100px;
+    background-color:rgb(50, 161, 183);
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+  }
+

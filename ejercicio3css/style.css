@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    color: #a2d2ff;
+    background-color: #333533;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  
+  /* Estilos de la imagen */
+  img {
+    width: 400px;
+    border-radius: 8px;
+  }
+  
+  /* Estilos del encabezado de nivel 1 */
+  h1 {
+    color: #8338ec;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos del encabezado de nivel 2 */
+  h2 {
+    color: #f15bb5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+  }
+  
+  /* Estilos de los campos de datos de la película */
+  ul li {
+    color: #060;
+    font-weight: bold;
+  }
+  
+  /* Estilos de los enlaces */
+  a {
+    font-size: 22px;
+    text-decoration: underline;
+  }
+  
+  /* Estilos específicos para los enlaces "Iron Man" y "Capitán América" */
+  a.link-destacado {
+  font-weight: bold;
+  color: rgb(112, 27, 27);
+  text-decoration: underline;
+  font-size: 22px;
+}
+  
+
+  
+  /* Estilos específicos para los textos "Hulk" y "Thor" */
+  .texto-destacado {
+    color: #19c2a0;
+    background-color: #000;
+    font-style: italic;
+  }
