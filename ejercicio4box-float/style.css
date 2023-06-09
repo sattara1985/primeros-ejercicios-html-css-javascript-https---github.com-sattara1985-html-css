@@ -1,4 +1,7 @@
+
+
 * {
+  background-color: rgb(209, 202, 202);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,33 +10,39 @@
   .chico {
     width: 100%;
     height: 100px;
-    background-color: rgb(50, 161, 183);
-    margin-bottom: 15px;
+    background-color: rgb(61, 198, 225);
+    float: left;
+    margin: 15px;
+  
   }
 
   .grande {
     width: 100%;
     height: 200px;
-    background-color:rgb(50, 161, 183);
-    margin-bottom: 9px;
-  }
-  .container {
-    clear: ;
-  }
-  .mediano{
-    width: 50%;
-    height: 100px;
-    background-color:rgb(50, 161, 183);
-    margin-right: 15px;
-    margin-bottom: 15px;
-    float: right;
-  }
-  .mediano {
-    width: 50%;
-    height: 100px;
-    background-color:rgb(50, 161, 183);
-    margin-right: 15px;
-    margin-bottom: 16px;
+    background-color: rgb(61, 198, 225);
     float: left;
+    margin: 15px;
+  
+  }
+ 
+  .mediano-derecho{
+    width: 49%;
+    height: 150px;
+    background-color: rgb(61, 198, 225);
+    float: right;
+   
+  }
+
+  .mediano-izquierdo {
+    width: 49%;
+    height: 150px;
+    background-color: rgb(61, 198, 225);
+    float: left;
+       
+  }
+
+  .container {
+   margin: 15px;
+    width: 100%;
   }
 
