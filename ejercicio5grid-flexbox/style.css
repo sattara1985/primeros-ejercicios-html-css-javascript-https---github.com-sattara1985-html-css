@@ -1,0 +1,30 @@
+.flag-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .stripe {
+    flex-grow: 1;
+    background-color: rgb(222, 105, 105);
+  }
+  
+  .stripe-1 {
+    height: 25%;
+    background-color: rgb(123, 177, 21);
+  }
+  
+  .stripe-2 {
+    height: 50%;
+    background-color: #005CBF;
+  }
+  
+  .cross {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    background-color: #D72828;
+    transform: rotate(45deg);
+  }

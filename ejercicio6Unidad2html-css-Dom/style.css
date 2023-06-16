@@ -1,0 +1,12 @@
+
+/* Estilos opcionales para mejorar la apariencia */
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+}
+
+button {
+background-color: aqua;
+
+margin-top: 10px;
+}

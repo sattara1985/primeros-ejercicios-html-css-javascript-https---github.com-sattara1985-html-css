@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Empleado del Mes</title>
+  <link rel="stylesheet" href="style.css" /> 
+</head>
+<body>
+  <h1>Empleado del Mes</h1>
+
+  <h2>Registro de Ventas</h2>
+  <div>
+  <label for="juana-aqua">Cantidad Aqua (Juana):</label>
+  <input type="text" id="juana-aqua" />
+  <label for="juana-emocion">Cantidad Emoción (Juana):</label>
+  <input type="text" id="juana-emocion" />
+  <label for="juana-alegria">Cantidad Alegría (Juana):</label>
+  <input type="text" id="juana-alegria" />
+  <label for="juana-frescura">Cantidad Frescura (Juana):</label>
+  <input type="text" id="juana-frescura" />
+  </div>
+  
+  <div>
+  <label for="pedro-aqua">Cantidad Aqua (Pedro):</label>
+  <input type="text" id="pedro-aqua" />
+  <label for="pedro-emocion">Cantidad Emoción (Pedro):</label>
+  <input type="text" id="pedro-emocion" />
+  <label for="pedro-alegria">Cantidad Alegría (Pedro):</label>
+  <input type="text" id="pedro-alegria" />
+  <label for="pedro-frescura">Cantidad Frescura (Pedro):</label>
+  <input type="text" id="pedro-frescura" />
+  </div>
+
+  <button onclick="calcularResultados()">Calcular</button>
+
+  <h2>Resultados</h2>
+  <p id="venta-juana"></p>
+  <p id="venta-pedro"></p>
+  <p id="resultado"></p>
+
+<script src="script.js"></script> 
+</body>
+</html>
