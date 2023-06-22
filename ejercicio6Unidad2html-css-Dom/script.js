@@ -39,10 +39,12 @@ function calcularResultados() {
     // Mostrar los resultados en el documento
     mostrarVentas(juanaVentas, productos, 'venta-juana');
     mostrarVentas(pedroVentas, productos, 'venta-pedro');
+    mostrarResultado('Suma total de dinero recolectada por Juana: $' + juanaTotal, 'total-venta-juana');
+    mostrarResultado('Suma total de dinero recolectada por Pedro: $' + pedroTotal, 'total-venta-pedro');
+    mostrarResultado('Empleado del mes Es: => ' + empleadoDelMes, 'resultado')
+    //document.write(juanaTotal);
+    //document.write(pedroTotal);
 
-    mostrarResultado('--Suma total de dinero recolectada por Juana: $' + juanaTotal, 'resultado');
-    mostrarResultado('--Suma total de dinero recolectada por Pedro: $' + pedroTotal, 'resultado');
-    mostrarResultado('Empleado del mes Es: ' + empleadoDelMes, 'resultado');
   }
 
   function calcularTotal(ventas, productos) {
@@ -50,7 +52,9 @@ function calcularResultados() {
     for (let i = 0; i < productos.length; i++) {
       total += ventas[i] * productos[i].precio;
     }
+    //alert(total);
     return total;
+    
   }
 
   function mostrarVentas(ventas, productos, elemento) {
